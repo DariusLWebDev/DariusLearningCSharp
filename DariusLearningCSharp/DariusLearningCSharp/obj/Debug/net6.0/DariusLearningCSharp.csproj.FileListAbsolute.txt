@@ -1,0 +1,15 @@
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\bin\Debug\net6.0\DariusLearningCSharp.exe
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\bin\Debug\net6.0\DariusLearningCSharp.deps.json
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\bin\Debug\net6.0\DariusLearningCSharp.runtimeconfig.json
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\bin\Debug\net6.0\DariusLearningCSharp.dll
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\bin\Debug\net6.0\DariusLearningCSharp.pdb
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\obj\Debug\net6.0\DariusLearningCSharp.csproj.AssemblyReference.cache
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\obj\Debug\net6.0\DariusLearningCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\obj\Debug\net6.0\DariusLearningCSharp.AssemblyInfoInputs.cache
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\obj\Debug\net6.0\DariusLearningCSharp.AssemblyInfo.cs
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\obj\Debug\net6.0\DariusLearningCSharp.csproj.CoreCompileInputs.cache
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\obj\Debug\net6.0\DariusLearningCSharp.dll
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\obj\Debug\net6.0\refint\DariusLearningCSharp.dll
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\obj\Debug\net6.0\DariusLearningCSharp.pdb
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\obj\Debug\net6.0\DariusLearningCSharp.genruntimeconfig.cache
+C:\DariusWebDevRepo\DariusLearningCSharp\DariusLearningCSharp\DariusLearningCSharp\obj\Debug\net6.0\ref\DariusLearningCSharp.dll
