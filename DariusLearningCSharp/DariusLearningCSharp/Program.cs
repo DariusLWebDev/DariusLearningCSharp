@@ -84,7 +84,24 @@ namespace DariusLearningCSharp
             Console.WriteLine(isCSharpFun);
             Console.WriteLine(isFishTasty);
 
+            //Type Casting
 
+            int myInt = 9;
+            double myDouble = myInt;
+
+            Console.WriteLine(myInt);
+            Console.WriteLine(myDouble);
+
+            //Casting
+
+            int myInt2 = 10;
+            double myDouble2 = 5.25;
+            bool myBool2 = true;
+
+            Console.WriteLine(Convert.ToString(myInt2));
+            Console.WriteLine(Convert.ToDouble(myInt2));
+            Console.WriteLine(Convert.ToInt32(myDouble2));
+            Console.WriteLine(Convert.ToString(myBool2));
 
 
 
