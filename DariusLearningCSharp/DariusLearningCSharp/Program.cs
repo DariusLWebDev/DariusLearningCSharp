@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace DariusLearningCSharp
 {
@@ -222,7 +223,53 @@ namespace DariusLearningCSharp
             {
                 Console.WriteLine(g);
             }
-            
+
+            for (int h = 1; h <= 5; ++h)
+            {
+                Console.WriteLine("Outer: " + h);
+
+                for (int j = 1; j <= 3; ++j)
+                {
+                    Console.WriteLine("Inner: " + j);
+                }
+            }
+
+            String[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            foreach (string k in cars)
+            {
+                Console.WriteLine(k);
+            }
+
+            //Break
+            for (int l = 0; l < 10; l++)
+            {
+                if (l == 4) 
+                { 
+                    break; 
+                }
+                Console.WriteLine(l);
+            }
+
+            for (int m = 0; m < 10; m++)
+            {
+                if (m == 4)
+                {
+                    continue;
+                }
+                Console.WriteLine(m);
+            }
+
+            int n = 0;
+            while (n < 10)
+            {
+                Console.WriteLine(n);
+                n++;
+                if (n == 4)
+                {
+                    break;
+                }
+            }
+
         }
     }
 }
