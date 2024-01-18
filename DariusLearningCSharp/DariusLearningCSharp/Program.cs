@@ -270,6 +270,44 @@ namespace DariusLearningCSharp
                 }
             }
 
+            int o = 0;
+            while (o < 10)
+            {
+                if (o == 4)
+                {
+                    o++;
+                    continue;
+                }
+                Console.WriteLine(o);
+                o++;
+            }
+            //Arrays
+
+            string[] spaceship = { "Volvo", "BMW", "Ford", "Mazda" };
+
+            spaceship[0] = "Ope1";
+
+            Console.WriteLine(spaceship[0]);
+
+            string[] trucks = { "Volvo", "BMW", "Ford", "Mazda" };
+            for (int p = 0; p < cars.Length; p++)
+            {
+                Console.WriteLine(trucks[p]);
+            }
+
+            string[] bike = { "Bike1", "Bike2", "Bike3", "Bike4" };
+            foreach (string q in bike)
+            {
+                Console.WriteLine(q);
+            }
+
+            string[] wheels = { "AWheel1", "DWheel2", "BWheel3", "CWheel4" };
+            Array.Sort(wheels);
+            foreach (string q in wheels)
+            {
+                Console.WriteLine(q);
+            }
+
         }
     }
 }
