@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
 namespace DariusLearningCSharp
 {
@@ -171,29 +172,29 @@ namespace DariusLearningCSharp
             switch (day)
             {
                 case 1:
-                Console.WriteLine("Monday");
-                break;
+                    Console.WriteLine("Monday");
+                    break;
                 case 2:
-                Console.WriteLine("Tuesday"); 
-                break;
+                    Console.WriteLine("Tuesday");
+                    break;
                 case 3:
-                Console.WriteLine("Wednesday");
-                break;  
+                    Console.WriteLine("Wednesday");
+                    break;
                 case 4:
-                Console.WriteLine("Thursday");
-                break;
+                    Console.WriteLine("Thursday");
+                    break;
                 case 5:
-                Console.WriteLine("Friday");
-                break;
+                    Console.WriteLine("Friday");
+                    break;
                 case 6:
-                Console.WriteLine("Saturday");
-                break;
+                    Console.WriteLine("Saturday");
+                    break;
                 case 7:
-                Console.WriteLine("Sunday");
-                break;
-                default: 
-                Console.WriteLine("Looking forward to the Weekend");
-                break;
+                    Console.WriteLine("Sunday");
+                    break;
+                default:
+                    Console.WriteLine("Looking forward to the Weekend");
+                    break;
             }
 
             //loops
@@ -243,9 +244,9 @@ namespace DariusLearningCSharp
             //Break
             for (int l = 0; l < 10; l++)
             {
-                if (l == 4) 
-                { 
-                    break; 
+                if (l == 4)
+                {
+                    break;
                 }
                 Console.WriteLine(l);
             }
@@ -307,6 +308,33 @@ namespace DariusLearningCSharp
             {
                 Console.WriteLine(q);
             }
+
+            int[] myNumber = { 5, 1, 8, 9 };
+            Console.WriteLine(myNumber.Max());
+            Console.WriteLine(myNumber.Min());
+            Console.WriteLine(myNumber.Sum());
+
+            int[,] numbers = { { 1, 4, 2 }, { 3, 6, 8 } };
+            numbers[0, 0] = 5;
+            Console.WriteLine(numbers[1, 1]);
+            Console.WriteLine(numbers[0, 0]);
+
+            int[,] number2 = { { 1, 4, 2 }, { 3, 6, 8 } };
+            foreach (int r in number2)
+            {
+                Console.WriteLine(r);
+            }
+
+            int[,] number3 = { { 1, 4, 2 }, { 3, 6, 8, } };
+
+            for (int s = 0; s < number3.GetLength(0); s++)
+            {
+                for (int t = 0; t < number3.GetLength(1); t++)
+                {
+                    Console.WriteLine(number3[s, t]);
+                }
+            }
+
 
         }
     }
