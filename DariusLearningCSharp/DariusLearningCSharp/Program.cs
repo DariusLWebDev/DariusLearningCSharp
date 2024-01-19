@@ -335,7 +335,17 @@ namespace DariusLearningCSharp
                 }
             }
 
+            static int MyMethod(int u, int v)
+            {
+                return u + v;
+            }
 
+            static void Main(string[] args)
+
+            {
+                Console.WriteLine(MyMethod(5, 3));
+            }
+               
         }
     }
 }
